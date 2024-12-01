@@ -1,16 +1,32 @@
-## What Does This PR Do?
---- 
+## 📝 What does this PR?
 ...
 
-## How should this be tested?
-
+## 🧪 How should this be tested?
 - ...
 - ...
 
-## Checklist:
+## ✅ Checklist
 
-- [ ] My code follows the style guidelines of this project
+#### Code Quality
 - [ ] I have performed a self-review of my code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] There is no field in my code that will cause memory allocation.
-- [ ] If my service is used with call an api, I made sure to add throttle (not doing this may cause partner api to send more requests than it can handle).
+- [ ] I checked that the code is clean and easy to understand
+
+#### Performance
+- [ ] I checked that there are no unnecessary memory allocations
+- [ ] I checked to see if the *Throttle* was necessary
+
+#### Security
+- [ ] I checked if the *Authorization* header can be added
+- [ ] I checked the validation of the fields in the payload
+
+---
+
+## 📄 cURL if exists
+```bash
+# paste your cURL here
+```
+
+## 🔑 Needed configs
+```bash
+# paste your needed configs here (in cURL format)
+```
