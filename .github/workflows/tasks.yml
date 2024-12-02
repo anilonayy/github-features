@@ -1,11 +1,7 @@
 name: 'PR TaskList Completed Checker'
-on:
-  push:
-    branches:
-      - '*'
+on: 
   pull_request:
-    branches:
-      - '*'
+    types: [edited, opened, synchronize, reopened]
 
 jobs:
   task-check:
